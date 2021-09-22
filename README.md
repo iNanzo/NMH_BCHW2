@@ -1,7 +1,7 @@
 # 02 Advanced CSS: Portfolio
 
-https://github.com/iNanzo/NMH_BCHW1
-https://inanzo.github.io/NMH_BCHW1/
+https://github.com/iNanzo/NMH_BCHW2
+https://inanzo.github.io/NMH_BCHW2/
 
 ## Acceptance Criteria
 
