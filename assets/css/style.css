@@ -56,9 +56,11 @@ footer {
 
 .pagename {
     font-weight: bolder;
+    font-size: larger;
+    background-color: var(--navcol);
 }
 
-li, a, button {
+li, button {
     float: left;
     color: var(--light);
     background-color: var(--navcol);
@@ -73,6 +75,11 @@ li, a, button {
 
 .navlink a {
     padding: 15px 10px;
+    float: left;
+    color: var(--light);
+    background-color: var(--navcol);
+    font-weight: 500;
+    font-size: 16px;
     text-decoration: none;
   }
 
@@ -91,6 +98,7 @@ li, a, button {
 
 .about p {
     padding: 10%;
+    line-height: 1.3;
 }
 
 /* My Projects */
@@ -102,6 +110,12 @@ li, a, button {
     justify-content: space-around;
   }
 
+.projects a {
+    color: var(--navcol);
+    text-decoration: none;
+    background-color: transparent;
+}
+
 /* Project Cards */
 
 .card {
@@ -112,6 +126,8 @@ li, a, button {
 
 .card p {
     padding: 15px;
+    line-height: 1.3;
+
 }
 
 .card h2 {
@@ -127,7 +143,7 @@ li, a, button {
     font-size: 130%;
 }
 
-.card > img {
+.card img {
     border-width: 1px;
     border-radius: 2%;
     width: 80%;
@@ -147,8 +163,19 @@ li, a, button {
 /* Contact Me */
 
 .contact p {
-    margin-bottom: 40px;
+    margin-bottom: 1%;
 }
+
+#lastcon {
+    margin-bottom: 5%;
+}
+
+.contact a {
+    color: var(--navcol);
+    text-decoration: none;
+    background-color: transparent;
+}
+
 
 /* Screen Ratio */
     
